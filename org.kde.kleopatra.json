@@ -10,7 +10,6 @@
     "--share=network",
     "--socket=wayland",
     "--socket=fallback-x11",
-    "--socket=gpg-agent",
     "--filesystem=~/.gnupg:create",
     "--filesystem=xdg-run/gnupg:ro",
     "--talk-name=org.kde.StatusNotifierWatcher"
