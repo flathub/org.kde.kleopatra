@@ -37,6 +37,29 @@
             ]
         },
         {
+            "name": "paperkey",
+            "buildsystem": "autotools",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "http://www.jabberwocky.com/software/paperkey/paperkey-1.6.tar.gz",
+                    "sha256": "a245fd13271a8d2afa03dde979af3a29eb3d4ebb1fbcad4a9b52cf67a27d05f7",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8571,
+                        "stable-only": true,
+                        "url-template": "http://www.jabberwocky.com/software/paperkey/paperkey-$version.tar.gz"
+                    }
+                },
+                {
+                    "type": "shell",
+                    "commands": [
+                        "cp -p /usr/share/automake-*/config.{sub,guess} ."
+                    ]
+                }
+            ]
+        },
+        {
             "name": "QGpgme",
             "buildsystem": "autotools",
             "sources": [
