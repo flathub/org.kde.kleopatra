@@ -86,8 +86,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.12.0/src/kpimtextedit-22.12.0.tar.xz",
-                    "sha256": "3f5edd7caec279d85a365a69b72c86a2fc1cd56d7245cafe9c7c4bb491c45fb7",
+                    "url": "https://download.kde.org/stable/release-service/22.12.1/src/kpimtextedit-22.12.1.tar.xz",
+                    "sha256": "4ed51bbbff4186c6df94003b31de376b5ccf7fe316f4d181136d0987757d2183",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
