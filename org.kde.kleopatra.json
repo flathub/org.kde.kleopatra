@@ -86,8 +86,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.12.1/src/kpimtextedit-22.12.1.tar.xz",
-                    "sha256": "4ed51bbbff4186c6df94003b31de376b5ccf7fe316f4d181136d0987757d2183",
+                    "url": "https://download.kde.org/stable/release-service/22.12.2/src/kpimtextedit-22.12.2.tar.xz",
+                    "sha256": "aef136cfd919d1429a06c1e79c8e9807e4cb65b215370b19216470d7129208bc",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -103,8 +103,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.12.1/src/libkleo-22.12.1.tar.xz",
-                    "sha256": "3e9db2bcccd43214fbbdf9b19858ad354fc141c3c942499c2a42d237375dd48d",
+                    "url": "https://download.kde.org/stable/release-service/22.12.2/src/libkleo-22.12.2.tar.xz",
+                    "sha256": "3d673954488663318537431bdacc8c8348dba27f57bdcc4b678961ea36268183",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -120,8 +120,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.12.1/src/kmime-22.12.1.tar.xz",
-                    "sha256": "2542b868f981551da7c3ce0c8ee2fba67998cc207e784cd41e9bf0c0f18ddaa4",
+                    "url": "https://download.kde.org/stable/release-service/22.12.2/src/kmime-22.12.2.tar.xz",
+                    "sha256": "6c31440de82fae19e4a45f78c81c436bd856077b7bb9165f9ed5f27460736cc4",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -137,8 +137,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.12.1/src/kleopatra-22.12.1.tar.xz",
-                    "sha256": "492e4176687b592d4ef80704985f2ed8290f9287ce100b96546b2f1c5808e36d",
+                    "url": "https://download.kde.org/stable/release-service/22.12.2/src/kleopatra-22.12.2.tar.xz",
+                    "sha256": "6a32b0fd0c1417f8b9e7aecb1e4c8f5b85b8cafe42fe32f8741000b3d49560e6",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
