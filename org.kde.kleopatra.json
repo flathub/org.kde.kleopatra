@@ -86,18 +86,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.0/src/kpimtextedit-23.04.0.tar.xz",
-                    "sha256": "cc6819004d5e73aae9b3b8f0679b79cf49f1d3b9c9f0451e78bd1ef809319cf1",
+                    "url": "https://download.kde.org/stable/release-service/23.04.1/src/kpimtextedit-23.04.1.tar.xz",
+                    "sha256": "99f02cb4dd5f60efe7f80d50e2941617920ebd392e9c900511c054b4c0d66aaa",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kpimtextedit-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "kpimtextedit-target-default-args.patch"
                 }
             ]
         },
@@ -107,18 +103,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.0/src/libkleo-23.04.0.tar.xz",
-                    "sha256": "ae210e3849395044be778cc7b92746e209be91722928c991a3324932adda6e69",
+                    "url": "https://download.kde.org/stable/release-service/23.04.1/src/libkleo-23.04.1.tar.xz",
+                    "sha256": "b51f395cf239020e117382477b5ef1a994f81e2c49978238d26bf685696d8499",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/libkleo-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "libkleo-target-default-args.patch"
                 }
             ]
         },
@@ -128,18 +120,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.0/src/kmime-23.04.0.tar.xz",
-                    "sha256": "a3cfb0ad644060a333a44a233f8f946f5f9c80ca55294843a91b1eb58091b24b",
+                    "url": "https://download.kde.org/stable/release-service/23.04.1/src/kmime-23.04.1.tar.xz",
+                    "sha256": "a0efb8bba7e12ea1766a3817b644097b48563f1e6c485a8f7a7dcac411fdbbd6",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kmime-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "kmime-target-default-args.patch"
                 }
             ]
         },
@@ -149,8 +137,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.0/src/kleopatra-23.04.0.tar.xz",
-                    "sha256": "984b5085601e61a1cb3d88a9a92bb424bb738228785e9b5f835ea2700a16f9f6",
+                    "url": "https://download.kde.org/stable/release-service/23.04.1/src/kleopatra-23.04.1.tar.xz",
+                    "sha256": "ec09a9a575607a3087d53589d71717b6885c23ca88badea1309630ea2fb2f829",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
