@@ -86,18 +86,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.0/src/kpimtextedit-23.04.0.tar.xz",
-                    "sha256": "cc6819004d5e73aae9b3b8f0679b79cf49f1d3b9c9f0451e78bd1ef809319cf1",
+                    "url": "https://download.kde.org/stable/release-service/23.04.1/src/kpimtextedit-23.04.1.tar.xz",
+                    "sha256": "99f02cb4dd5f60efe7f80d50e2941617920ebd392e9c900511c054b4c0d66aaa",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kpimtextedit-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "kpimtextedit-target-default-args.patch"
                 }
             ]
         },
@@ -115,10 +111,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/libkleo-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "libkleo-target-default-args.patch"
                 }
             ]
         },
@@ -136,10 +128,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kmime-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "kmime-target-default-args.patch"
                 }
             ]
         },
