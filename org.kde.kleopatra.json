@@ -6,6 +6,7 @@
     "command": "kleopatra",
     "rename-icon": "kleopatra",
     "finish-args": [
+        "--device=dri",
         "--share=ipc",
         "--share=network",
         "--socket=wayland",
