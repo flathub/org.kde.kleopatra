@@ -121,8 +121,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.1/src/kmime-23.04.1.tar.xz",
-                    "sha256": "a0efb8bba7e12ea1766a3817b644097b48563f1e6c485a8f7a7dcac411fdbbd6",
+                    "url": "https://download.kde.org/stable/release-service/23.04.2/src/kmime-23.04.2.tar.xz",
+                    "sha256": "0aa7a2463d91bae39c3a5339226b976a2a82e3b2a0829da2ee709860714e6c0a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -138,8 +138,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.1/src/kleopatra-23.04.1.tar.xz",
-                    "sha256": "ec09a9a575607a3087d53589d71717b6885c23ca88badea1309630ea2fb2f829",
+                    "url": "https://download.kde.org/stable/release-service/23.04.2/src/kleopatra-23.04.2.tar.xz",
+                    "sha256": "dc322480b6d61163d23ee7b656cd659d8cd040697996617c275a497ed5a6a7e3",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
