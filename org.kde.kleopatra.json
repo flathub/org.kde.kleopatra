@@ -61,13 +61,13 @@
             ]
         },
         {
-            "name": "QGpgme",
-            "buildsystem": "autotools",
+            "name": "gpgme",
+            "builddir": true,
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-1.21.0.tar.bz2",
-                    "sha256": "416e174e165734d84806253f8c96bda2993fd07f258c3aad5f053a6efd463e88",
+                    "url": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-1.22.0.tar.bz2",
+                    "sha256": "9551e37081ad3bde81018a0d24f245c3f8206990549598fb31a97a68380a7b71",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1239,
@@ -87,8 +87,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.3/src/kpimtextedit-23.04.3.tar.xz",
-                    "sha256": "ab2049ddecb1440acfe1d08878a9f430f9f6f45b4bfb16b3561b23ca570a3ae7",
+                    "url": "https://download.kde.org/stable/release-service/23.08.0/src/kpimtextedit-23.08.0.tar.xz",
+                    "sha256": "63367a4a173536a91b7186813aea5b6b42bf88724483e983a5b6c60e9a48b897",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -104,8 +104,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.3/src/libkleo-23.04.3.tar.xz",
-                    "sha256": "4538152adbfa4f696dd72a76affc71f18014e56f3319b83f6530ed451bb1e750",
+                    "url": "https://download.kde.org/stable/release-service/23.08.0/src/libkleo-23.08.0.tar.xz",
+                    "sha256": "ccaf8b7ea9c16100ea5602be77b4661a582fddb6f14ede4c32ef23582cac0701",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -121,8 +121,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.3/src/kmime-23.04.3.tar.xz",
-                    "sha256": "4de0ec9ca5a252aac90dbb8e05a51b6d7c5b4cf24afa3e0542443494347868c4",
+                    "url": "https://download.kde.org/stable/release-service/23.08.0/src/kmime-23.08.0.tar.xz",
+                    "sha256": "e472d4e0eb4d2fd43cad17265a38ee9cdb2dd0450b3f6a596b240209709aff7c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -138,8 +138,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.3/src/kleopatra-23.04.3.tar.xz",
-                    "sha256": "20269175dde85b8426e64d4ad96d821b24017eb95311a1016e4869183d109451",
+                    "url": "https://download.kde.org/stable/release-service/23.08.0/src/kleopatra-23.08.0.tar.xz",
+                    "sha256": "b88f20217bd5f1855dda84c5304c015b5cc860a748f9deff28c488c50236255f",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
