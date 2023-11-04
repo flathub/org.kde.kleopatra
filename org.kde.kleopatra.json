@@ -1,7 +1,7 @@
 {
     "app-id": "org.kde.kleopatra",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-22.08",
+    "runtime-version": "5.15-23.08",
     "sdk": "org.kde.Sdk",
     "command": "kleopatra",
     "rename-icon": "kleopatra",
@@ -66,8 +66,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-1.22.0.tar.bz2",
-                    "sha256": "9551e37081ad3bde81018a0d24f245c3f8206990549598fb31a97a68380a7b71",
+                    "url": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-1.23.1.tar.bz2",
+                    "sha256": "a0c316f7ab7d3bfb01a8753c3370dc906e5b61436021f3b54ff1483b513769bd",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1239,
