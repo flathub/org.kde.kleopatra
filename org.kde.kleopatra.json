@@ -87,8 +87,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.2/src/kpimtextedit-23.08.2.tar.xz",
-                    "sha256": "1ed552789a56ca706fcb88d7bc81f61055e098372f4aec461917fb31c16a369b",
+                    "url": "https://download.kde.org/stable/release-service/23.08.3/src/kpimtextedit-23.08.3.tar.xz",
+                    "sha256": "3c16724fcd0b8f915f7a8a981132838eb930d1e1a9a85fdfcfc78ab3a16204fb",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -104,8 +104,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.2/src/libkleo-23.08.2.tar.xz",
-                    "sha256": "89dfaf72ed23a71ae3414a21bfc514f9a2f267ba2422cbe771cccd42edb63aad",
+                    "url": "https://download.kde.org/stable/release-service/23.08.3/src/libkleo-23.08.3.tar.xz",
+                    "sha256": "0c37f32e128a5d33e9bf32d00cf9bd61efe56990284d2d3c864aab18d83e13e8",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -121,8 +121,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.2/src/kmime-23.08.2.tar.xz",
-                    "sha256": "0ffe6a7b3e17a17b8ea5560a080d0417e69ea55afde00271abf0781da4b7d24c",
+                    "url": "https://download.kde.org/stable/release-service/23.08.3/src/kmime-23.08.3.tar.xz",
+                    "sha256": "1a51c80c885df34bce2122c24e949d2f354ee0d840de91deaf93feca029f33b1",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -138,8 +138,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.2/src/kleopatra-23.08.2.tar.xz",
-                    "sha256": "f3c023030d3af0987de964f10ea30452f93397654d0c27b11acb858b0dd64679",
+                    "url": "https://download.kde.org/stable/release-service/23.08.3/src/kleopatra-23.08.3.tar.xz",
+                    "sha256": "4868eb58759f1da8a644d535a1e36fc1719d75cad6b56edc34ad95979086433d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
