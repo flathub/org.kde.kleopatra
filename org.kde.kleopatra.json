@@ -7,12 +7,12 @@
     "rename-icon": "kleopatra",
     "finish-args": [
         "--device=dri",
+        "--filesystem=xdg-run/gnupg:ro",
+        "--filesystem=~/.gnupg:create",
         "--share=ipc",
         "--share=network",
-        "--socket=wayland",
         "--socket=fallback-x11",
-        "--filesystem=~/.gnupg:create",
-        "--filesystem=xdg-run/gnupg:ro",
+        "--socket=wayland",
         "--talk-name=org.kde.StatusNotifierWatcher"
     ],
     "modules": [
