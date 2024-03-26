@@ -87,8 +87,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/kpimtextedit-23.08.5.tar.xz",
-                    "sha256": "4edc962b0c8202c192b3c9c6faaba0996e88df99609500abb54f55b768e727c7",
+                    "url": "https://download.kde.org/stable/release-service/24.02.1/src/kpimtextedit-24.02.1.tar.xz",
+                    "sha256": "6d556506e508e825d7ea5c6c0cec8fe0bb9ef28ccb5e346d856dbe1ec3619a97",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -138,8 +138,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/kleopatra-23.08.5.tar.xz",
-                    "sha256": "a9c416599ed3763148fe8305d220b5950043b3c7ae12ffd2a960196c65dbf1a6",
+                    "url": "https://download.kde.org/stable/release-service/24.02.1/src/kleopatra-24.02.1.tar.xz",
+                    "sha256": "6f8790017de64325ffdef2e28fd5450ba6510b52979b486b1db3bfa1fdd02b95",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
