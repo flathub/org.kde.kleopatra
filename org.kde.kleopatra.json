@@ -1,18 +1,18 @@
 {
     "app-id": "org.kde.kleopatra",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-23.08",
+    "runtime-version": "6.6",
     "sdk": "org.kde.Sdk",
     "command": "kleopatra",
     "rename-icon": "kleopatra",
     "finish-args": [
         "--device=dri",
+        "--filesystem=xdg-run/gnupg:ro",
+        "--filesystem=~/.gnupg:create",
         "--share=ipc",
         "--share=network",
-        "--socket=wayland",
         "--socket=fallback-x11",
-        "--filesystem=~/.gnupg:create",
-        "--filesystem=xdg-run/gnupg:ro",
+        "--socket=wayland",
         "--talk-name=org.kde.StatusNotifierWatcher"
     ],
     "modules": [
@@ -78,6 +78,73 @@
             ]
         },
         {
+            "name": "libsecret",
+            "buildsystem": "meson",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.gnome.org/sources/libsecret/0.21/libsecret-0.21.4.tar.xz",
+                    "sha256": "163d08d783be6d4ab9a979ceb5a4fecbc1d9660d3c34168c581301cd53912b20",
+                    "x-checker-data": {
+                        "type": "gnome",
+                        "name": "libsecret",
+                        "stable-only": true
+                    }
+                }
+            ],
+            "config-opts": [
+                "-Dcrypto=disabled",
+                "-Dgtk_doc=false",
+                "-Dintrospection=false",
+                "-Dmanpage=false",
+                "-Dvapi=false"
+            ]
+        },
+                {
+            "name": "qtkeychain",
+            "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DCMAKE_INSTALL_LIBDIR=/app/lib",
+                "-DLIB_INSTALL_DIR=/app/lib",
+                "-DBUILD_TRANSLATIONS=NO",
+                "-DBUILD_WITH_QT6=ON"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/frankosterfeld/qtkeychain/archive/refs/tags/0.14.2.tar.gz",
+                    "sha256": "cf2e972b783ba66334a79a30f6b3a1ea794a1dc574d6c3bebae5ffd2f0399571",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 4138,
+                        "stable-only": true,
+                        "url-template": "https://github.com/frankosterfeld/qtkeychain/archive/refs/tags/$version.tar.gz"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ktextaddons",
+            "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DQT_MAJOR_VERSION=6"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/ktextaddons/ktextaddons-1.5.3.tar.xz",
+                    "sha256": "8a52db8abfa8a9d68d2d291fb0f8be20659fd7899987b4dcafdf2468db0917dc",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 351168,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/ktextaddons/ktextaddons-$version.tar.xz"
+                    }
+                }
+            ]
+        },
+        {
             "name": "kpimtextedit",
             "buildsystem": "cmake-ninja",
             "config-opts": [
@@ -87,8 +154,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/kpimtextedit-23.08.5.tar.xz",
-                    "sha256": "4edc962b0c8202c192b3c9c6faaba0996e88df99609500abb54f55b768e727c7",
+                    "url": "https://download.kde.org/stable/release-service/24.02.1/src/kpimtextedit-24.02.1.tar.xz",
+                    "sha256": "6d556506e508e825d7ea5c6c0cec8fe0bb9ef28ccb5e346d856dbe1ec3619a97",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -104,8 +171,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/libkleo-23.08.5.tar.xz",
-                    "sha256": "4330d3e4b70cf5f8d7b341b665a63b47f02e12270946ce6991971315298c4625",
+                    "url": "https://download.kde.org/stable/release-service/24.02.1/src/libkleo-24.02.1.tar.xz",
+                    "sha256": "0871ef3fae2b44f8fe012edc55902fd7849973283afe37f8e083bfd3702ff9bd",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -121,8 +188,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/kmime-23.08.5.tar.xz",
-                    "sha256": "b6894e733abf3a8fb4fc7de37b7cbf15cbebdc737b80f7fe632bdf61e5da3fda",
+                    "url": "https://download.kde.org/stable/release-service/24.02.1/src/kmime-24.02.1.tar.xz",
+                    "sha256": "3904a719e9f1d85fa8ce0b9e6763d9beef813ac47790630287c4a23139fa71d6",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -133,13 +200,51 @@
             ]
         },
         {
+            "name": "kmbox",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+            ],
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/release-service/24.02.1/src/kmbox-24.02.1.tar.xz",
+                    "sha256": "7f1e6ec4dc0d8ba1e6a5bf3c9a5d2d314be3d027e0ac6ef83f07f67a59bea4da",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kmbox-$version.tar.xz"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "mimetreeparser",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/release-service/24.02.1/src/mimetreeparser-24.02.1.tar.xz",
+                    "sha256": "bc3f48e6d8d975607b73a1b45d310ccb584e8e8f5470bd6bf443a1f914d2a11b",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/mimetreeparser-$version.tar.xz"
+                    }
+                }
+            ]
+        },
+        {
             "name": "kleopatra",
             "buildsystem": "cmake-ninja",
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/kleopatra-23.08.5.tar.xz",
-                    "sha256": "a9c416599ed3763148fe8305d220b5950043b3c7ae12ffd2a960196c65dbf1a6",
+                    "url": "https://download.kde.org/stable/release-service/24.02.1/src/kleopatra-24.02.1.tar.xz",
+                    "sha256": "6f8790017de64325ffdef2e28fd5450ba6510b52979b486b1db3bfa1fdd02b95",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
