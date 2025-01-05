@@ -1,7 +1,7 @@
 {
     "app-id": "org.kde.kleopatra",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.7",
+    "runtime-version": "6.8",
     "sdk": "org.kde.Sdk",
     "command": "kleopatra",
     "rename-icon": "kleopatra",
@@ -209,8 +209,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.3/src/kmbox-24.08.3.tar.xz",
-                    "sha256": "42ae591aa326fa899c80dbd78eb7402bab6511ca3a476ed7e9c0bfe81de3512b",
+                    "url": "https://download.kde.org/stable/release-service/24.12.0/src/kmbox-24.12.0.tar.xz",
+                    "sha256": "246bf77b9c1f9de0de2572069e541157e65e11c39167fabd46c914eb31f9ce71",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -226,8 +226,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.3/src/mimetreeparser-24.08.3.tar.xz",
-                    "sha256": "7a74d0884c88d3ed0ddab0f6ab33709f8a834c91d7a19d41b66c23e3a94f2384",
+                    "url": "https://download.kde.org/stable/release-service/24.12.0/src/mimetreeparser-24.12.0.tar.xz",
+                    "sha256": "1994ceb0704bb12eff08a5850a7986acd99979e248889c9631aba8f82e42dab6",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
