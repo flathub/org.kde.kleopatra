@@ -9,6 +9,7 @@
         "--device=dri",
         "--filesystem=xdg-run/gnupg:ro",
         "--filesystem=~/.gnupg:create",
+        "--own-name=org.kde.kwatchgnupg",
         "--share=ipc",
         "--share=network",
         "--socket=fallback-x11",
