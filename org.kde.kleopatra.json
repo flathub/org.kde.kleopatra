@@ -67,8 +67,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-1.24.3.tar.bz2",
-                    "sha256": "bfc17f5bd1b178c8649fdd918956d277080f33df006a2dc40acdecdce68c50dd",
+                    "url": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-2.0.0.tar.bz2",
+                    "sha256": "ddf161d3c41ff6a3fcbaf4be6c6e305ca4ef1cc3f1ecdfce0c8c2a167c0cc36d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1239,
@@ -134,8 +134,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/ktextaddons/ktextaddons-1.5.4.tar.xz",
-                    "sha256": "64b80602e84b25e9164620af3f6341fa865b85e826ab8f5e02061ae24a277b20",
+                    "url": "https://download.kde.org/stable/ktextaddons/ktextaddons-1.6.0.tar.xz",
+                    "sha256": "d9846505a52f97bda64ead193032bc29573ec31481f473be3c586f5b8321ecdc",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 351168,
@@ -172,8 +172,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.04.1/src/libkleo-25.04.1.tar.xz",
-                    "sha256": "04fe72f4035c50e01f3741c3b45f2170035358a04974c5497c91cd6beb30d800",
+                    "url": "https://download.kde.org/stable/release-service/25.04.2/src/libkleo-25.04.2.tar.xz",
+                    "sha256": "34feb9871d8a0e6ded0a7baa95f78fdac28c13d7b00ee9296bd1669e0c605f6a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -189,8 +189,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.04.1/src/kmime-25.04.1.tar.xz",
-                    "sha256": "8a039adc6ca02a709498a81a81cbf1d28d27525ae37ce7147d4349b0d37a501d",
+                    "url": "https://download.kde.org/stable/release-service/25.04.2/src/kmime-25.04.2.tar.xz",
+                    "sha256": "6102c1191a34475af463f786e7407ee9f328bb75f93a1235e51ab3ef62500d3a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -210,8 +210,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.04.1/src/kmbox-25.04.1.tar.xz",
-                    "sha256": "737400068067cf91f38311dbfc754a325c1a22c02ab7ce97faeb28f06f03d5ca",
+                    "url": "https://download.kde.org/stable/release-service/25.04.2/src/kmbox-25.04.2.tar.xz",
+                    "sha256": "e348396fb8f1de1729d0415116b05f6220f0ebb4428c4607b98b56edd321f1aa",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -227,8 +227,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.04.1/src/mimetreeparser-25.04.1.tar.xz",
-                    "sha256": "8ab8cca0d49fcac50cefe4a7f27a03bee8d31f247a24e0517ee23b69059f277e",
+                    "url": "https://download.kde.org/stable/release-service/25.04.2/src/mimetreeparser-25.04.2.tar.xz",
+                    "sha256": "9cdb04278f03c73c07ac0b840d44491460e3ab431133323d26a4c1ef084b6e37",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -244,8 +244,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.04.1/src/kleopatra-25.04.1.tar.xz",
-                    "sha256": "61f2c473551eb01cbae2b300e274b562ec19014ee3f74c4ee84f35645446b89b",
+                    "url": "https://download.kde.org/stable/release-service/25.04.2/src/kleopatra-25.04.2.tar.xz",
+                    "sha256": "d155c416103fad173c361ea10f3ea1f6142297cc5be3598e9b062461336a3476",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
