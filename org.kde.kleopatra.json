@@ -63,6 +63,7 @@
         },
         {
             "name": "gpgme",
+            "builddir": true,
             "sources": [
                 {
                     "type": "archive",
@@ -75,25 +76,25 @@
                         "url-template": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-$version.tar.bz2"
                     }
                 }
-            ],
-            "cleanup": [
-                "/lib/libgpgme*.la"
             ]
         },
         {
             "name": "gpgmepp",
             "buildsystem": "cmake-ninja",
-            "builddir": true,
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+            ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.gnupg.org/ftp/gcrypt/gpgmepp/gpgmepp-2.0.0.tar.xz",
+                    "url": "https://gnupg.org/ftp/gcrypt/gpgmepp/gpgmepp-2.0.0.tar.xz",
                     "sha256": "d4796049c06708a26f3096f748ef095347e1a3c1e570561701fe952c3f565382",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 378536,
                         "stable-only": true,
-                        "url-template": "https://www.gnupg.org/ftp/gcrypt/gpgmepp/gpgmepp-$version.tar.xz"
+                        "url-template": "https://gnupg.org/ftp/gcrypt/gpgmepp/gpgmepp-$version.tar.bz2"
                     }
                 }
             ]
@@ -101,10 +102,9 @@
         {
             "name": "qgpgme",
             "buildsystem": "cmake-ninja",
-            "builddir": true,
             "config-opts": [
-                "-DBUILD_WITH_QT5=OFF",
-                "-DBUILD_WITH_QT6=ON"
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
             ],
             "sources": [
                 {
@@ -115,12 +115,9 @@
                         "type": "anitya",
                         "project-id": 378538,
                         "stable-only": true,
-                        "url-template": "https://gnupg.org/ftp/gcrypt/qgpgme/qgpgme-$version.tar.xz"
+                        "url-template": "https://gnupg.org/ftp/gcrypt/qgpgme/qgpgme-$version.tar.bz2"
                     }
                 }
-            ],
-            "cleanup": [
-                "/lib/libqgpgme.la"
             ]
         },
         {
