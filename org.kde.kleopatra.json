@@ -67,8 +67,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-1.24.3.tar.bz2",
-                    "sha256": "bfc17f5bd1b178c8649fdd918956d277080f33df006a2dc40acdecdce68c50dd",
+                    "url": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-2.0.0.tar.bz2",
+                    "sha256": "ddf161d3c41ff6a3fcbaf4be6c6e305ca4ef1cc3f1ecdfce0c8c2a167c0cc36d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1239,
@@ -134,8 +134,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/ktextaddons/ktextaddons-1.6.0.tar.xz",
-                    "sha256": "d9846505a52f97bda64ead193032bc29573ec31481f473be3c586f5b8321ecdc",
+                    "url": "https://download.kde.org/stable/ktextaddons/ktextaddons-1.7.1.tar.xz",
+                    "sha256": "90cf25e298e095c40b3286a7153d04f961ef4e6598321bdeb00f2be7e998ae7e",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 351168,
