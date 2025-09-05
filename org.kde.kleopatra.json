@@ -27,8 +27,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://archives.boost.io/release/1.88.0/source/boost_1_88_0.tar.bz2",
-                    "sha256": "46d9d2c06637b219270877c9e16155cbd015b6dc84349af064c088e9b5b12f7b",
+                    "url": "https://archives.boost.io/release/1.89.0/source/boost_1_89_0.tar.bz2",
+                    "sha256": "85a33fa22621b4f314f8e85e1a5e2a9363d22e4f4992925d4bb3bc631b5a0c7a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 6845,
@@ -67,13 +67,55 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-1.24.3.tar.bz2",
-                    "sha256": "bfc17f5bd1b178c8649fdd918956d277080f33df006a2dc40acdecdce68c50dd",
+                    "url": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-2.0.0.tar.bz2",
+                    "sha256": "ddf161d3c41ff6a3fcbaf4be6c6e305ca4ef1cc3f1ecdfce0c8c2a167c0cc36d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1239,
                         "stable-only": true,
                         "url-template": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-$version.tar.bz2"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "gpgmepp",
+            "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://gnupg.org/ftp/gcrypt/gpgmepp/gpgmepp-2.0.0.tar.xz",
+                    "sha256": "d4796049c06708a26f3096f748ef095347e1a3c1e570561701fe952c3f565382",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 378536,
+                        "stable-only": true,
+                        "url-template": "https://gnupg.org/ftp/gcrypt/gpgmepp/gpgmepp-$version.tar.xz"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "qgpgme",
+            "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://gnupg.org/ftp/gcrypt/qgpgme/qgpgme-2.0.0.tar.xz",
+                    "sha256": "15645b2475cca6118eb2ed331b3a8d9442c9d4019c3846ba3f6d25321b4a61ad",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 378538,
+                        "stable-only": true,
+                        "url-template": "https://gnupg.org/ftp/gcrypt/qgpgme/qgpgme-$version.tar.xz"
                     }
                 }
             ]
@@ -155,8 +197,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.04.3/src/kpimtextedit-25.04.3.tar.xz",
-                    "sha256": "4a107ca02a4535fdc08f7b65886cc99cdf9da642a67363bcbab4cba338bc6c32",
+                    "url": "https://download.kde.org/stable/release-service/25.08.0/src/kpimtextedit-25.08.0.tar.xz",
+                    "sha256": "9dc08e3251b371cb6c1b8980d2dc0cbc0dab9fc115d0844894bf8dbd0f4d1437",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -172,8 +214,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.04.3/src/libkleo-25.04.3.tar.xz",
-                    "sha256": "7c9b334b226c990d5193b2e66a3ce8de1c5ea6c2afc9175280e6f44d02a7caa8",
+                    "url": "https://download.kde.org/stable/release-service/25.08.0/src/libkleo-25.08.0.tar.xz",
+                    "sha256": "20c9553c7652f8bc59949cf4b92711c7b0e5a486fc4b10d851346439056d2bd4",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -189,8 +231,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.04.3/src/kmime-25.04.3.tar.xz",
-                    "sha256": "23ece71d839261024b861ca4b956ea0787ee59db883d17bea83236aaf8bda1ea",
+                    "url": "https://download.kde.org/stable/release-service/25.08.0/src/kmime-25.08.0.tar.xz",
+                    "sha256": "846e6ecd519d99a282f5079c9c153fbbc3d9e6f8698e5a9b31f8dccfe988d1f3",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -210,8 +252,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.04.3/src/kmbox-25.04.3.tar.xz",
-                    "sha256": "8f604bdc87587b3bc4d944ad82c17587c8db1930d6435fdbc4e5f8fb17f6727e",
+                    "url": "https://download.kde.org/stable/release-service/25.08.0/src/kmbox-25.08.0.tar.xz",
+                    "sha256": "d290145bc7cd1146eb10b8d395848bfcda51e7b5dbd95f0337681aa6ab6c4ad0",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -227,8 +269,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.04.3/src/mimetreeparser-25.04.3.tar.xz",
-                    "sha256": "26a4440d50ca62db1f154794557d5a216acc44ae96347e072200255a267c4ac4",
+                    "url": "https://download.kde.org/stable/release-service/25.08.0/src/mimetreeparser-25.08.0.tar.xz",
+                    "sha256": "606333eccf752e6ee47260e427596649695425d85ed7e5e12d332c75882f96ca",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -244,8 +286,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.04.3/src/kleopatra-25.04.3.tar.xz",
-                    "sha256": "7c9ad9d10cd368d58cdadd41f78b8a41853b8cd2b15eb55472f3b5ce707ad1c2",
+                    "url": "https://download.kde.org/stable/release-service/25.08.0/src/kleopatra-25.08.0.tar.xz",
+                    "sha256": "f3cba816041732ed915e4941f728f04ef9cb3129f31d845bfe8df3f4e0f0b3db",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
