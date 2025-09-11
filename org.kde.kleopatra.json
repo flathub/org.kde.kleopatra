@@ -197,8 +197,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.0/src/kpimtextedit-25.08.0.tar.xz",
-                    "sha256": "9dc08e3251b371cb6c1b8980d2dc0cbc0dab9fc115d0844894bf8dbd0f4d1437",
+                    "url": "https://download.kde.org/stable/release-service/25.08.1/src/kpimtextedit-25.08.1.tar.xz",
+                    "sha256": "0f26be94a2fd0815181dbb0bcb6537239bf18f5f9d1c0b278e6faa54f534ec92",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -214,8 +214,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.0/src/libkleo-25.08.0.tar.xz",
-                    "sha256": "20c9553c7652f8bc59949cf4b92711c7b0e5a486fc4b10d851346439056d2bd4",
+                    "url": "https://download.kde.org/stable/release-service/25.08.1/src/libkleo-25.08.1.tar.xz",
+                    "sha256": "6a9a2bef659a4294c6114ac2300fc62dc5e2d1b48eb29ef2ead9be59997d8baf",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -231,8 +231,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.0/src/kmime-25.08.0.tar.xz",
-                    "sha256": "846e6ecd519d99a282f5079c9c153fbbc3d9e6f8698e5a9b31f8dccfe988d1f3",
+                    "url": "https://download.kde.org/stable/release-service/25.08.1/src/kmime-25.08.1.tar.xz",
+                    "sha256": "3ced311cc5eba781d207730d999642468dade70250b221c9e00b3fa275e45f59",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -252,8 +252,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.0/src/kmbox-25.08.0.tar.xz",
-                    "sha256": "d290145bc7cd1146eb10b8d395848bfcda51e7b5dbd95f0337681aa6ab6c4ad0",
+                    "url": "https://download.kde.org/stable/release-service/25.08.1/src/kmbox-25.08.1.tar.xz",
+                    "sha256": "24445885fa9cdc655af68c3948666068a44c54a5e6eaee0cb743dcc8926d676e",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -269,8 +269,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.0/src/mimetreeparser-25.08.0.tar.xz",
-                    "sha256": "606333eccf752e6ee47260e427596649695425d85ed7e5e12d332c75882f96ca",
+                    "url": "https://download.kde.org/stable/release-service/25.08.1/src/mimetreeparser-25.08.1.tar.xz",
+                    "sha256": "0b7e98e1c5f7109ceae4b1cb4ddfeb0f5d008387e3e7562a020fa14ba31365a4",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -286,8 +286,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.0/src/kleopatra-25.08.0.tar.xz",
-                    "sha256": "f3cba816041732ed915e4941f728f04ef9cb3129f31d845bfe8df3f4e0f0b3db",
+                    "url": "https://download.kde.org/stable/release-service/25.08.1/src/kleopatra-25.08.1.tar.xz",
+                    "sha256": "27081153cd29ff300454ca1bcd4da57541d07a52a9741bcd8fabc2a094b4bdf8",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
