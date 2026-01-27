@@ -62,44 +62,6 @@
             ]
         },
         {
-            "name": "gpgme",
-            "builddir": true,
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-2.0.1.tar.bz2",
-                    "sha256": "821ab0695c842eab51752a81980c92b0410c7eadd04103f791d5d2a526784966",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 1239,
-                        "stable-only": true,
-                        "url-template": "https://gnupg.org/ftp/gcrypt/gpgme/gpgme-$version.tar.bz2"
-                    }
-                }
-            ]
-        },
-        {
-            "name": "gpgmepp",
-            "buildsystem": "cmake-ninja",
-            "config-opts": [
-                "-DBUILD_TESTING=OFF",
-                "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://gnupg.org/ftp/gcrypt/gpgmepp/gpgmepp-2.0.0.tar.xz",
-                    "sha256": "d4796049c06708a26f3096f748ef095347e1a3c1e570561701fe952c3f565382",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 378536,
-                        "stable-only": true,
-                        "url-template": "https://gnupg.org/ftp/gcrypt/gpgmepp/gpgmepp-$version.tar.xz"
-                    }
-                }
-            ]
-        },
-        {
             "name": "qgpgme",
             "buildsystem": "cmake-ninja",
             "config-opts": [
