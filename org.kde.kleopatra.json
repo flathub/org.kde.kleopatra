@@ -16,6 +16,14 @@
         "--socket=wayland",
         "--talk-name=org.kde.StatusNotifierWatcher"
     ],
+    "cleanup": [
+        "/include",
+        "/lib/cmake",
+        "/share/doc",
+        "/share/man",
+        "*.la",
+        "*.a"
+    ],    
     "modules": [
         {
             "name": "boost",
