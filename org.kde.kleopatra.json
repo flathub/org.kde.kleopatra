@@ -23,7 +23,7 @@
         "/share/man",
         "*.la",
         "*.a"
-    ],    
+    ],
     "modules": [
         {
             "name": "boost",
@@ -144,8 +144,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.1/src/kpimtextedit-25.12.1.tar.xz",
-                    "sha256": "0e7b0e614b314e491047277f102990b2b7b8b5959cf9c6b83c872966ff599fc4",
+                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/kpimtextedit-25.12.2.tar.xz",
+                    "sha256": "7efed3b92322f2ed7da80c15eec6b838662d8c4c9e4dd6c909bfccf1609a1e54",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -161,8 +161,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.1/src/libkleo-25.12.1.tar.xz",
-                    "sha256": "ab9afbc3f311d1001815dba03d6d60ecda8e6219c6e43899fc3a5ac4eec9432d",
+                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/libkleo-25.12.2.tar.xz",
+                    "sha256": "6b055214ba7c5c6da75454b9f2f0cf90213511b73cc18a47964ff553407697f7",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -178,8 +178,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.1/src/kmime-25.12.1.tar.xz",
-                    "sha256": "c87528fd679cd27c64bb3ff0b34f4f7d3518e3fc3c9e9740ad01a147fe03c479",
+                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/kmime-25.12.2.tar.xz",
+                    "sha256": "8d81167adb67558e707f7c71f710d5f0b1a89d6b54301a4ac51518d1841baf62",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -199,8 +199,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.1/src/kmbox-25.12.1.tar.xz",
-                    "sha256": "0b1981437273a4bed80fd81aad732eec7a4ea41001ad6cf83cf3896b6d152f1c",
+                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/kmbox-25.12.2.tar.xz",
+                    "sha256": "c175d4cf3ece8cfd86a6769f48359dc55363973a22d0ce5c0ebaf4de533ce32e",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -216,8 +216,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.1/src/mimetreeparser-25.12.1.tar.xz",
-                    "sha256": "200abe7cfc750c2e0d637a53947b623d322460470568f788f8dc0bfffdc831ed",
+                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/mimetreeparser-25.12.2.tar.xz",
+                    "sha256": "bdd46f111fa707b2c2f2bd6621af436d0a29ebcc8b98ae5a4facb022161cd91e",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -233,8 +233,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.1/src/kleopatra-25.12.1.tar.xz",
-                    "sha256": "1c3d3a372de678800a8334799e5b8cda1b96bef89d3bd0efeb321a1250403bd7",
+                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/kleopatra-25.12.2.tar.xz",
+                    "sha256": "b9bed89fe400b47cc250900e30b2c4801a60cb5f19d19be82de3a0f09cf65f93",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
