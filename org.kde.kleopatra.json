@@ -83,6 +83,9 @@
                     "sha256": "15645b2475cca6118eb2ed331b3a8d9442c9d4019c3846ba3f6d25321b4a61ad",
                     "x-checker-data": {
                         "is-important": true,
+                        "versions": {
+                            "<": "2.1.0"
+                        },
                         "type": "anitya",
                         "project-id": 378538,
                         "stable-only": true,
