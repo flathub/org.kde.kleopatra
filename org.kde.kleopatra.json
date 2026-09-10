@@ -35,8 +35,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://archives.boost.io/release/1.90.0/source/boost_1_90_0.tar.bz2",
-                    "sha256": "49551aff3b22cbc5c5a9ed3dbc92f0e23ea50a0f7325b0d198b705e8ee3fc305",
+                    "url": "https://archives.boost.io/release/1.92.0/source/boost_1_92_0.tar.bz2",
+                    "sha256": "5c1d40cb8e19adbf740a4ec2da35b3e58f3f5804b1dce44deb53df72193cbc6c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 6845,
@@ -127,8 +127,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/ktextaddons/ktextaddons-2.0.2.tar.xz",
-                    "sha256": "0d7f82a976ef682f45822b221e2f15cefc0039488bc8c700a6b0e7594aaebdea",
+                    "url": "https://download.kde.org/stable/ktextaddons/ktextaddons-2.1.2.tar.xz",
+                    "sha256": "f3b4448904f1656d6d7cd5a557d22fe1c50624eb32ed369f34726beff9ce0589",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 351168,
@@ -206,8 +206,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.2/src/kmbox-26.04.2.tar.xz",
-                    "sha256": "27e796610b7e7a2249b4673fd8a27b59c92d5a6fe1a9af9e35ecd6308cde8f15",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/kmbox-26.08.1.tar.xz",
+                    "sha256": "4bda0a789e010d383db7a56294941853cc2d878ddd57b33f1e08daeb2714a75b",
                     "x-checker-data": {
                         "is-important": true,
                         "type": "anitya",
@@ -224,8 +224,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.2/src/mimetreeparser-26.04.2.tar.xz",
-                    "sha256": "f15b6268261255888e3e986d67b8f39f0d57144e87d99b46e8fabe78cad300dc",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/mimetreeparser-26.08.1.tar.xz",
+                    "sha256": "b81506a5876039c0aa9969f7bd71040880b171b53014a76a8bbaed02287cc5f9",
                     "x-checker-data": {
                         "is-important": true,
                         "type": "anitya",
@@ -242,8 +242,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.2/src/kleopatra-26.04.2.tar.xz",
-                    "sha256": "cafaec7975ef28d557fe1f280c2c62beae86f4c642cf969d7cbc9c05e0ff7aee",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/kleopatra-26.08.1.tar.xz",
+                    "sha256": "f05abd1f28c5c61b0c58d96a31ffcf8a005c0f4264aac6d8661a6687688fc756",
                     "x-checker-data": {
                         "is-main-source": true,
                         "type": "anitya",
